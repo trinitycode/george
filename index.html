@@ -63,12 +63,10 @@ divide by
 <span id="divideResult"></span>
 <script>
 document.getElementById('divideButton').onclick = function(){
-  result = ''
   // Get the two numbers from the boxes.
   divide1 = Number(document.getElementById('divideBox1').value)
   divide2 = Number(document.getElementById('divideBox2').value)
   // Divide the two numbers together. Slash / means divide.
-  // divide1
   result = divide1 / divide2
   document.getElementById('divideResult').textContent = result
 }
