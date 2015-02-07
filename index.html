@@ -19,10 +19,10 @@ a {
 
 
 <h2>Basic addition</h2>
-<input value="1" id="subtractBox1">
-minus
-<input value="2" id="subtractBox2">
-<input type="button" value="equals" id="subtractButton">
+<input value="1" id="addBox1">
+add
+<input value="2" id="addBox2">
+<input type="button" value="equals" id="addButton">
 <span id="subtractResult"></span>
 <script>
 document.getElementById('addButton').onclick = function(){
@@ -30,7 +30,7 @@ document.getElementById('addButton').onclick = function(){
   subtract1 = Number(document.getElementById('subtractBox1').value)
   subtract2 = Number(document.getElementById('subtractBox2').value)
   // subtract the two numbers together and store them as result.
-  result = subtract1 - subtract2
+  result = add1 + a
   // Show the result.
   document.getElementById('subtract Result').textContent = result
 }
@@ -89,7 +89,7 @@ document.getElementById('subtractButton').onclick = function(){
   // subtract the two numbers together and store them as result.
   result = subtract1 -subtract2
   // Show the result.
-  document.getElementById('addResult').textContent = result
+  document.getElementById(' subtractResult').textContent = result
 }
 </script>
 
